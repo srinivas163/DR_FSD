@@ -1,0 +1,10 @@
+a:hover{
+	color:skyblue;
+	background-color:gray;
+}
+a:active{
+	color:black;
+}
+a:link{
+	color:blue;
+}

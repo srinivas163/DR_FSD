@@ -1,0 +1,12 @@
+body{
+	background-image:url('thub.png');
+	background-position:cover;
+}
+.pic{
+	height:300px;
+	width:600px;
+	border:solid black;
+	background-image:url('unnamed.jpg');
+	background-size:contain;
+
+}

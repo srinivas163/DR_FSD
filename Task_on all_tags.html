@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Task_on all_tags.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML basics</title>
+</head>
+<body>
+    <div class="key">
+        <div class="main">
+            <div id="Home"><br><center><img src="epam.jpg"></center><br><br>
+                <h1>HTML Elements</h1><hr>
+                <a href="#Home">Home</a>&nbsp;&nbsp;
+                <a href="#Headers">Headers</a>&nbsp;&nbsp;
+                <a href="#Text_formating">Text_formating</a>&nbsp;&nbsp;
+                <a href="#Table">Table</a>&nbsp;&nbsp;
+                <a href="#List">List</a>&nbsp;&nbsp;
+                <a href="#Text_formats">Text_formats</a>&nbsp;&nbsp;
+                <a href="#Blockquotes">Blockquotes</a>&nbsp;&nbsp;<hr>
+                <div id="Headers">
+                    <p>pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page,and it is commonly used insider header</p>
+                    <h1>Heading 1</h1>
+                    <h2>Heading 1</h2>
+                    <h3>Heading 1</h3>
+                    <h4>Heading 1</h4>
+                    <h5>Heading 1</h5>
+                    <h6>Heading 1</h6>
+                    <hr>
+                    <div id="Text_formating">The <b>HyperText</b> <strong>Markup Language or</strong> <i>HTML is the standard markup language</i> for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. <u>It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</u>
+                        <br><br>
+                        <mark>Web browsers receive HTML documents</mark> from a web server or <del>from local</del> storage and render the documents into multimedia web pages. HTML <em>describes the structure of a web page semantically and originally included cues for its appearance.</em>
+                        <br><br>
+                        HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since <sup>1997</sup>.[2] A form of HTML, known as <sub>HTML5</sub>, <small>is used to display video and audio</small>, <big>primarily using the element, together with JavaScript.</big><hr>
+                        <div id="Table"><h1>Tables</h1><table border="" cellspacig="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Header1</th>
+                                    <th>Header2</th>
+                                    <th>Header3</th>
+                                </tr>
+                            <tbody>
+                                <tr>
+                                    <td>ABC</td>
+                                    <td>EFG</td>
+                                    <td>HIJ</td>
+                                </tr>
+                                <tr>
+                                    <td>KLM</td>
+                                    <td>NOP</td>
+                                    <td>QRS</td>
+                                </tr>
+                                <tr>
+                                    <td>TUV</td>
+                                    <td>WXY</td>
+                                    <td>ZZZ</td>
+                                </tr>
+                            </tbody>
+                            </thead>
+                        </table><br><hr>
+                            <div id="List"><h1>Unordered Lits</h1><ul>
+                                <li>List item 1</li>
+                                <li>List item 2</li>
+                                <ul>
+                                    <li>some nested list 1</li>
+                                </ul>
+                                <li>List item 3</li>
+                            </ul>
+                            <h1>Ordered List</h1>
+                            <ol>
+                                <li>List item 1</li>
+                                <li>List item 1</li>
+                                <ol class="order">
+                                    <li>some nested list item 1</li>
+                                </ol>
+                                <li>List item 3</li>
+                            </ol>
+                            <h1>Definition List</h1>
+                            <dl>
+                                <dt>Defines term 1</dt>
+                                <dd>description 1</dd>
+                                <dt>Defines term 2</dt>
+                                <dd>description 2</dd>
+                            </dl><hr>
+                                <div id="Text_formats">
+                                    <h1>Text _Formats</h1>
+                                    <h3>Article Text</h3>
+                                    <h5>Article title </h5>
+                                    <h6>Article description</h6>
+                                    <h3>Preformatted Text</h3>
+                                    <section class="sec">
+                                        Text <br>in a pre element <br> is displayed inn a fixed-width <br> font, and it preserves <br> both <br> spaces and <br> line breaks
+                                    </section>
+                                    <h3>Code</h3>
+                                    <section class="code">.wrapper{ <br> display: flex; <br>vertical-align: middle;<br> justify-content: center; <br> }</section><br>
+                                    <div id="Blockquotes"><h2>Blockquotes</h2>
+                                        <p>Let's keep it simple. Italics are good to help to set it off fom the body text. Be sure to stye the citation.</p>
+                                        <section class="content">"If you go back a few hundred years, what we take for granted today would seem like magie-being able to talk to 
+                                            people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all
+                                            things that would have been considered magic a few hundred years ago"</section><hr><br>
+                                        <div id="Form">
+                                            <section class="forms"><label>First name: </label><input type="text">
+                                                <br><label>&nbsp;&nbsp;&nbsp;Surname: </label><input type="text"><br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Email:</label> <input type="email"><br><textarea class="area"></textarea>
+                                                <br><br><br><br><br><br><br><br><br><br><br><br><input type="submit" class="sub">
+                                        </div>
+                                            <div id="end"><p class="sub1">© Copyright Epam Systems</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
