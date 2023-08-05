@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+.main{
+    height:1000px;
+    width:1400px;
+    background-color:whitesmoke;
+}
+.a{
+    height:80px;
+    width:1400px;
+    background-color:white;
+}
+.c{
+    height:50px;
+    width:100px;
+    border:2px solid aquamarine;
+    margin-top:15px;
+    margin-left:470px;
+    float:left;
+    border-radius:10px;
+    padding-top:12px;
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+.d{
+    height:50px;
+    width:100px;
+    border:2px solid aqua;
+    margin-top:15px;
+    float:left;
+    margin-left:2px;
+    border-radius:10px;
+    padding-top:12px;
+    background-color:aqua;
+    text-align: center;
+    
+}
+.e{
+    height:50px;
+    width:100px;
+    border:2px solid aqua;
+    margin-top:15px;
+    float:left;
+    margin-left:2px;
+    border-radius:10px;
+    padding-top:12px;
+    background-color: aqua;
+    text-align: center;
+
+}
+.f{
+    height:50px;
+    width:100px;
+    border:2px solid aqua;
+    margin-top:15px;
+    float:left;
+    margin-left:2px;
+    border-radius:10px;
+    padding-top:12px;
+    background-color:aqua;
+    text-align: center;
+
+}
+.b{
+    height:1900px;
+    width:1400px;
+}
+.h{
+    height:600px;
+    width:450px;
+    margin-left:30px;
+    margin-top:20px;
+    border:2px solid white;
+    float:left;
+    border-radius:15px;
+    background-color:white;
+}
+.j{
+    height: 45%;
+    width: auto;
+    text-align: center;
+}
+.k{
+    height: 55%;
+    width: auto;
+}
+.i{
+    height:800px;
+    width:850px;
+    float:right;
+}
+.l{
+    height:50%;
+    width:700px;
+    border:2px solid white;
+    margin-top: 20px;
+    border-radius:15px;
+    text-align: left;
+    padding-top:20px;
+    background-color:white;
+}
+.m{
+    height:50%;
+    width:700px;
+    border:2px solid white;
+    margin-top: 20px;
+    border-radius:15px;font-size:20px;
+    padding-left:10px;
+    padding-top:10px;
+    background-color:white;
+
+}
+label{
+    font-size:25px;
+    padding-top:20px;
+    padding-left:10px;
+}
+button{
+    width:200px;
+    height:50px;
+}
+.i1{
+    padding:10px;
+    font-size: 50px;
+}
+.s1{
+    height:80px;
+    width:80px;
+    background-color: aqua;
+    border:2px solid aqua;
+    border-radius: 100%;
+    margin-top:20px;
+    margin-left: 180px;
+}
+#s3{
+    width:120px;
+    height:50px;
+    color:white;
+    background-color: rgb(100, 162, 243);
+}
+#s4{
+    width:120px;
+    height:50px;
+    color:rgb(100, 162, 243);
+}
+.s5{
+    height:18%;
+    font-size:20px;
+}
+.i2{
+    font-size:30px;
+    padding-top:10px;
+    padding-left:10px;
+}
+span{
+    padding-left:50%;
+}
+.ss1{
+    padding-left:35%;
+}
+
+progress{
+    width:650px;
+    margin-left:10px;
+    height:15px;
+    
+}
+#ss3{
+    font-size:20px;
+}
+.sub1{
+    margin-left:10px;
+    width:80%;
+    height:30px;
+}
+.sub2{
+    margin-left:55px;
+    width:80%;
+    height:30px;
+}
+.sub3{
+    margin-left:52px;
+    width:80%;
+    height:30px;
+}
+.sub4{
+    margin-left:42px;
+    width:80%;
+    height:30px;
+}
+.sub5{
+    margin-left:32px;
+    width:80%;
+    font-weight:bold;
+    height:30px;
+}.butt{
+    background-color:rgb(69, 161, 236);
+    border-radius:10px;
+}
+select{
+    height:50px;
+    width:100px;
+    margin-top:15px;
+    margin-left:2px;
+    float:left;
+    border-radius:10px;
+    text-align: center;
+    background-color:rgb(240, 69, 69);
+    color:white;
+}

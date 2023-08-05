@@ -1,0 +1,21 @@
+h1{
+	background-color:brown;
+	display:inline;
+}
+span{
+	background-color: skyblue;
+	display:block;
+}
+div{
+	height:200px;
+	width:200px;
+	border:2px solid black;
+	float:left;
+	margin-top:20px;
+}
+.a{
+	display:none;
+}
+.b{
+	visibility:hidden;
+}
